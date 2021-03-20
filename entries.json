@@ -406,7 +406,7 @@
             },
             {
                 "name": "Costa Rica",
-                "capital": "San Jose"
+                "capital": "San José"
             },
             {
                 "name": "Cuba",
@@ -417,64 +417,64 @@
                 "capital": "Roseau"
             },
             {
-                "name": "Dominican",
-                "capital": "Republic"
+                "name": "Dominican Republic",
+                "capital": "Santo Domingo"
             },
             {
-                "name": "Santo Domingo",
-                "capital": "El Salvador"
+                "name": "El Salvador",
+                "capital": "San Salvador"
             },
             {
-                "name": "San Salvador",
-                "capital": "Grenada"
+                "name": "Grenada",
+                "capital": "Saint George's"
             },
             {
-                "name": "Saint George's",
-                "capital": "Guatemala"
+                "name": "Guatemala",
+                "capital": "Guatemala City"
             },
             {
-                "name": "Guatemala City",
-                "capital": "Haiti"
+                "name": "Haiti",
+                "capital": "Port-au-Prince"
             },
             {
-                "name": "Port-au-Prince",
-                "capital": "Honduras"
+                "name": "Honduras",
+                "capital": "Tegucigalpa"
             },
             {
-                "name": "Tegucigalpa",
-                "capital": "Jamaica"
+                "name": "Jamaica",
+                "capital": "Kingston"
             },
             {
-                "name": "Kingston",
-                "capital": "Mexico"
+                "name": "Mexico",
+                "capital": "Mexico City"
             },
             {
-                "name": "Mexico City",
-                "capital": "Nicaragua"
+                "name": "Nicaragua",
+                "capital": "Managua"
             },
             {
-                "name": "Managua",
-                "capital": "Panama"
+                "name": "Panama",
+                "capital": "Panama City"
             },
             {
-                "name": "Panama City",
-                "capital": "St. Kitts and Nevis"
+                "name": "St. Kitts & Nevis",
+                "capital": "Basseterre"
             },
             {
-                "name": "Basseterre",
-                "capital": "St. Lucia"
+                "name": "St. Lucia",
+                "capital": "Castries"
             },
             {
-                "name": "Castries",
-                "capital": "St. Vincent and the Grenadines"
+                "name": "St. Vincent & the Grenadines",
+                "capital": "Kingstown"
             },
             {
-                "name": "Kingstown",
-                "capital": "Trinidad & Tobago"
+                "name": "Trinidad & Tobago",
+                "capital": "Port-of-Spain"
             },
             {
-                "name": "Port-of-Spain",
-                "capital": "United States"
+                "name": "United States",
+                "capital": "Washington D.C."
             }
         ]
     },
@@ -732,7 +732,7 @@
             },
             {
                 "name": "Togo",
-                "capital": "Lomé"
+                "capital": "Lome"
             },
             {
                 "name": "Tunisia",
