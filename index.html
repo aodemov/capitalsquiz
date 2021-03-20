@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capitals Quiz</title>
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: #88cccc;
+    }
+  </style>
+
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="container" style="max-width: 750px;">
+    <div id="menu">
+
+      <div class="box">
+        <h1 class="title is-3 has-text-centered">Capitals quiz</h1>
+        <hr>
+
+        <h2 class="subtitle is-4">Regions:</h2>
+
+        <div class="field">
+          <div class="control is-large">
+
+            <div id="region-buttons" class="buttons">
+            </div>
+
+          </div>
+        </div>
+
+        <h2 class="subtitle is-4">Mode:</h2>
+
+        <div class="select">
+          <select id="mode-select" disabled>
+            <option value="0">County  -  Capital</option>
+            <option value="1">Capital -  Country</option>
+            <option value="2">Both</option>
+          </select>
+        </div>
+
+        <h2 class="subtitle is-4"></h2>
+
+        <div class="field is-grouped is-grouped-centered">
+          <p class="control">
+            <button id="play-button" class="button is-primary is-medium" onclick="play()">
+              Play
+            </button>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="game" style="display: none;">
+
+      <div class="box" style="position: relative;">
+        <h1 class="title is-3 has-text-centered">Capitals quiz</h1>
+        <hr>
+
+        <h2 id="entry-name" class="subtitle is-3 has-text-centered"></h2>
+
+        <h1 id="entry-counter" class="subtitle is-4" style="position: absolute; top: 6.9rem; right: 1em;"></h1>
+
+        <div class="field">
+          <div class="control">
+            <input id="entry-answer" class="input is-medium" type="text" placeholder="">
+          </div>
+        </div>
+        
+        
+
+        <div class="field is-grouped is-grouped-centered">
+          <p class="control">
+            <button id="continue-button" class="button is-medium is-primary" onclick="check()">
+              Continue
+            </button>
+          </p>
+
+          <p class="control">
+            <button id="hint-button" class="button is-medium" onclick="hint()">
+              Hint
+            </button>
+          </p>
+
+          <p class="control">
+            <button id="hint-button" class="button is-medium" onclick="pickNext()">
+              Skip
+            </button>
+          </p>
+
+          <p class="control">
+            <button id="hint-button" class="button is-medium" onclick="finish()">
+              Finish
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="stats" style="display: none;">
+
+      <div class="box" style="position: relative;">
+        <h1 class="title is-3 has-text-centered">Capitals quiz</h1>
+        <hr>
+
+        <h2 id="stats-right" class="subtitle is-4"></h2>
+        <h2 id="stats-mistakes" class="subtitle is-4"></h2>
+        <h2 id="stats-hints" class="subtitle is-4"></h2>
+        <h2 id="stats-time" class="subtitle is-4"></h2>
+
+        <div class="field is-grouped is-grouped-centered">
+          <p class="control">
+            <button id="again-button" class="button is-medium is-primary" onclick="again()">
+              Take the test again
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
