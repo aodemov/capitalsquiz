@@ -487,11 +487,11 @@
             },
             {
                 "name": "Bolivia",
-                "capital": "La Paz / Sucre"
+                "capital": "La Paz"
             },
             {
                 "name": "Brazil",
-                "capital": "Brasília"
+                "capital": "Brasilia"
             },
             {
                 "name": "Chile",
@@ -499,7 +499,7 @@
             },
             {
                 "name": "Colombia",
-                "capital": "Bogotá"
+                "capital": "Bogota"
             },
             {
                 "name": "Ecuador",
@@ -511,7 +511,7 @@
             },
             {
                 "name": "Paraguay",
-                "capital": "Asunción"
+                "capital": "Asuncion"
             },
             {
                 "name": "Peru",
